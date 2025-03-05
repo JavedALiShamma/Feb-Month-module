@@ -26,7 +26,7 @@ const Home=()=>{
        <div className="w-100 d-flex gap-3 flex-wrap">
             {posts.map(post=>(
             
-                <div id={post.id} onClick={handleClick} style={{width:"200px",height:"auto", fontSize:"10px" ,cursor:"pointer"}} className="d-flex flex-column border rounded bg-dark text-white text-m" key={post.id}>
+                <div id={post.id} onClick={handleClick} style={{width:"200px",height:"auto", fontSize:"10px" ,cursor:"pointer"}} className="d-flex flex-column border rounded bg-dark m-auto text-white text-m" key={post.id}>
                         <img id={post.id} className="w-100 border" src={`https://picsum.photos/200?random=${post.id}`}></img>
                         <div id={post.id} className="w-100 p-2 d-flex flex-column">
                             <p id={post.id} className="text-center">
